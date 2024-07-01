@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  min-height: 729px;
+  background-color: rgb(111, 196, 249);
+  text-align: center;
+  padding: 2.5rem;
+}
+
+h1{
+  margin-top: 1.5rem;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.input-class{
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.input-class input{
+  width: 50%;
+  height: 45px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.input-class button{
+  width: 15%;
+  height: 45px;
+  position: relative;
+  top: -2px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  background-color: rgb(249, 64, 64);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.6rem;
+}
+
+.todos{
+  width: 80%;
+  margin: auto;
+}
+
+.todo-item{
+  margin: auto;
+  width: 53%;
+  height: 45px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.todo-item big{
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 0.4rem;
+  font-size: 1.5rem;
+}
+
+.todo-item button{
+  width: 55px;
+  height: 45px;
+  color: white;
+  background-color: rgb(249, 64, 64);
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.done{
+  background-color: rgb(74, 181, 25) !important;
+}
+
+.todo-item button:hover, .input-class button:hover{
+  opacity: 80%;
+}
+
+.isDone{
+  text-decoration: line-through;
+}
